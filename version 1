@@ -1,3 +1,6 @@
 # blood-draw
 
-trial and error ≠ trial and tribulations
+import datetime
+now = datetime.datetime.now()
+print ("bloodsucking : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
